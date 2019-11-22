@@ -5,8 +5,8 @@ body {
     background-color: #333333;
     text-align: center;
     font-size: 120%;
-    margin: 0;
-    padding: 1%;
+    padding:1%;
+
     border-radius: 15px;
    }
 
@@ -20,19 +20,22 @@ body {
     margin-right: 25%;
     font-size: 100%;
 }
-
+#myForm {
+    top:50px;
+}
 #tableau {
+    position:center;
     padding: 1%;
     margin-top: 5vw;
     text-align: center;
     font-size: 100%;
     color: white;
-    padding: 1%;
     background-color: #333333;
     border-radius: 15px;
 }
    
     .navbar {
+        left: 0px;
         overflow: hidden;
         background-color: #333;
         position: fixed;
@@ -136,3 +139,18 @@ body {
     #loged {
         display: none;
     }
+
+table {
+    border: medium solid #000000;
+    width: 50%;
+    margin:auto;
+}
+td, th {
+    text-align: center;
+    border: thin solid #6495ed;
+    width: 50%;
+}
+a{
+
+    color:white;
+}
