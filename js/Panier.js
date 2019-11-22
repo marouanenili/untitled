@@ -31,7 +31,7 @@ function Remplirpanier() {
     if (!JSON.parse(localStorage.getItem('etatConexion')).etat) {
         document.getElementById('tableau').style.display = 'none';
         document.getElementById('message').style.display = 'block';
-        document.getElementById('message').innerHTML = 'veuillez vous connecter pour voir votre panier'
+        document.getElementById('message').innerHTML = 'Veuillez vous connecter pour voir votre panier'
 
     }
 }
