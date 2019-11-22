@@ -1,12 +1,16 @@
 .Filtre {
     margin-top: 50px;
     float:left;
-
-    padding-left: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
     color: #f2f2f2;
     margin-bottom: 20px;
-
     background-color:#333 ;
+}
+
+#filtre {
+    color:#b3d4fc;
+    font-size:50px;
 }
 
 footer {
@@ -27,10 +31,6 @@ body {
     border-radius: 15px;
 }
 
-#filtre {
-    color:#b3d4fc;
-    font-size:50px;
-}
 
 .navbar {
     overflow: hidden;
@@ -64,6 +64,7 @@ body {
     height: 50%;
     margin-top: 1vw;
 }
+
 #Ajaccio{
     margin-top:20vw;
 }
@@ -140,7 +141,9 @@ body {
     opacity: 1;
 }
 .container:hover .bottom2 {
-    opacity: 1;}
+    opacity: 1;
+}
+
 #id { 
     float: right;
     background-color: #555;
@@ -152,19 +155,18 @@ body {
     position: fixed;
     right: 28px;
     width: 280px;
-
 }
 
 #loged {
     display: none;
 }
+
 .form-container {
     max-width: 300px;
     padding: 10px;
     background-color: white;
     right:0;
     position:fixed;
-
 }
 
 .form-container input[type=text], .form-container input[type=password] {
@@ -175,7 +177,6 @@ body {
     background: #f1f1f1;
 }
 
-/* When the inputs get focus, do something */
 .form-container input[type=text]:focus, .form-container input[type=password]:focus {
     background-color: #ddd;
     outline: none;
@@ -193,12 +194,9 @@ body {
     opacity: 0.8;
 }
 
-
-
 .form-container .cancel {
     background-color: red;
 }
-
 
 .form-container .btn:hover, .open-button:hover {
     opacity: 1;
@@ -215,16 +213,20 @@ body {
     font-size: 146%;
     font-style: italic;
 }
+
 #PrixTOT {
     font-size: 24px;
     font-weight: 600;
 }
+
 #reserv {
     visibility: hidden;
 }
+
 #boutton1 {
     visibility: visible ;
 }
+
 #boutton2 {
     visibility: visible;
 }
@@ -258,6 +260,7 @@ table {
     top: 50px;
     line-height: 200%;
 }
+
 .bjr{
     padding: 1%;
     background-color: #333333;
