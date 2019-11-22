@@ -236,6 +236,7 @@ input[type=submit], input[type=button] {
 }
 
 table {
+    margin-top: 20px;
     position: center;
     background-color: #333333;
     border-radius: 15px;
@@ -249,8 +250,9 @@ table {
     text-align: center;
     position: auto;
     top: 50px;
+    line-height: 200%;
 }
-#bjr{
+.bjr{
     padding: 1%;
     background-color: #333333;
     border-radius: 15px;
