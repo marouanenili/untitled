@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CATALOG>
+    <CD>
+        <user>Empire Burlesque</user>
+        <Pasword>Bob Dylan</Pasword>
+        <COUNTRY>USA</COUNTRY>
+        <COMPANY>Columbia</COMPANY>
+        <PRICE>10.90</PRICE>
+        <YEAR>1985</YEAR>
+    </CD>
+    <CD>
+        <TITLE>ya rayah</TITLE>
+        <ARTIST>Boby</ARTIST>
+        <COUNTRY>Morocco</COUNTRY>
+        <COMPANY>Columbia</COMPANY>
+        <PRICE>11.90</PRICE>
+        <YEAR>1999</YEAR>
+    </CD>
+
+</CATALOG>

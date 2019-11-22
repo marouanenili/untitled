@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../css/recap.css">
+    <meta charset="UTF-8">
+    <title>recap</title>
+    <script src='../js/reservation.js'></script>
+</head>
+<body onload="start()">
+
+<p> Bonjours <i><div id="Name">NAME</div></i> Voici le recapitulatif de votre voyage :</p>
+<table>
+    <tr>
+        <td>
+            Pays:
+        </td>
+        <td id="Country">
+            <i>NAME</i>
+        </td>
+    </tr>
+<tr> <td>Ville:</td>
+    <td  id="Town">NAME</td>
+</tr>
+<tr><td> Nombre de Jour:</td>
+    <td  id="NbrJour">NAME</td>
+</tr>
+<tr> <td> Date d'arrivee: </td>
+    <td id="Date arrivee">NAME</td>
+</tr>
+<tr> <td> Date de depart:</td>
+    <td  id="Date depart">NAME</td>
+</tr>
+<tr> <td> Nombre d'adultes:</td>
+    <td id="NbrAdu"> NAME</td>
+</tr>
+<tr> <td> Nombre d'enfant:</td>
+    <td id="NbrEnf">NAME</td>
+</tr>
+<tr> <td> Petit dejeuner: </td>
+    <td id="petitdej">NAME</td>
+</tr>
+<tr> <td> Prix Total : </td>
+    <td id="PrixTOT">NAME</td>
+</tr>
+</table>
+<form id="reserv" action='principale.html'>
+    <input id="boutton3" type="button" value="supprimer" onclick="supprimer()">
+<input id="boutton1"  type="submit" value="ajouter au panier" onclick="transfertverspanier()">
+<input id="boutton2" type="button" value="annuler" onclick="history.back()">
+<input id="Country2" type="text" name="nbrJ" value="" >
+<input id="Name2" type="text" name="Nom" value=""  >
+<input id="Mail" type="text" name="mail" value="" >
+<input id="Tel" type="text" name="tel" value="" >
+<input id="Date depart2" type="date" name="depart" value="" >
+<input id="Date arrivee2" type="date" name="retour">
+<input id="NbrAdu2" type="number" name="nbradu" value="" >
+<input id="NbrEnf2" type="number" name="nbrenf" value="" >
+<input id="prixTot2" type="text" name="prix" value="" >
+<input id="Town2" type="text" name="ville" value="" >
+<input id="nbrJour2" type="text" name="nbrJ" value="" >
+<input id="petitdej2" type="text"  value="" >
+</form>
+<span id="response"></span>
+
+</body>
+</html>

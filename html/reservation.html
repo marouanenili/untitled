@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../css/reservation.css">
+    <script src='../js/reservation.js'></script>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body onload="debut()">
+
+<p>Page de réservation pour :</p>
+
+<form id="reserv" action="recap.html    ">
+<table>
+    <tr><td> Nom:</td>
+        <td  id="NbrJour"><input id="name" type="text" name="Nom" value="" placeholder="Dupond" required onchange="Calculprix()"></td>
+    </tr>
+    <tr> <td> Prénom: </td>
+        <td id="Date arrivee"><input id="lastName" type="text" name="Prenom" value="" placeholder="Jean" onchange="Calculprix()"><br></td>
+    </tr>
+    <tr> <td> Adresse mail:</td>
+        <td  id="Date depart"><input id="email" type="text" name="mail" value="" placeholder="dupond.jean@gmail.com"></td>
+    </tr>
+    <tr> <td> Téléphone:</td>
+        <td id="NbrAdu"><input type="text" name="tel" value="" placeholder="XX.XX.XX.XX.XX"></td>
+    </tr>
+    <tr> <td> Date de départ:</td>
+        <td id="NbrEnf"><input type="date" id="depart" name="depart" onchange="Calculprix()"></td>
+    </tr>
+    <tr> <td> Date de retour: </td>
+        <td id="petitdej"><input type="date" name="retour" onchange="Calculprix()"></td>
+    </tr>
+    <tr> <td> Nombre d'adultes : </td>
+        <td id="PrixTOT"><input type="number" name="nbradu" value="2" min="1" onchange="Calculprix()"></td>
+    </tr>
+    <tr> <td> Nombre d'enfants (-12ans):</td>
+        <td id="NbrEnf"><input type="number" name="nbrenf" value="0" min="0" onchange="Calculprix()"></td>
+    </tr>
+    <tr> <td> Petit déjeuner inclus: </td>
+        <td id="petitdej"><input type="checkbox" name="petitdej" id="checkbox1"  onchange="Calculprix()"/></td>
+    </tr>
+    </table>
+
+    <input id="prix" type="text" name="prix" value="" disabled><br>
+    <input type="submit" name="Confirmer" value="Confirmer" >
+    <input type="button" name="reset" value="Réinitialiser" onclick=location.reload();>
+    <input id="ville" type="text" name="ville" value="" >
+    <input id="nbrJ" type="text" name="nbrJ" value="" >
+    <input id="prixtot" type="text" name="prixtot" value="" >
+</form>
+<label>Besoin de renseignements sur ce voyage ?</label> <br>
+<textarea name="" placeholder="Bonjour, je souhaiterais savoir s'il y a un minigolf à proximité de l'hotel..."></textarea><br>
+
+
+
+<div class="navbar"><a href="principale.html" >Home</a>
+    <a href="contact.html" >Contactez-nous</a>
+    <a href="panier.html"> Panier</a></div>
+</body>
+
+<footer>
+    <p>
+        With V&NTrip The World Is Your's <br>
+        V&NTrip is a company with a capital of 8000E
+    </p>
+</footer>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+  <script src="../js/contact.js"></script>
+  <link rel="stylesheet" href="../css/contact.css">
+    <title>Contact</title>
+</head>
+
+<body onload="debut()">
+
+
+
+<div class="pres">
+<h2>
+  Contact
+</h2>
+<div id="infoc">
+  <p>Marouane Nili</p> <br>
+  <a href="marouane.nili@cpe.fr">Adresse mail : marouane.nili@cpe.fr </a><br>
+  <a href="tel:+33611223344">Tél : 06.11.22.33.44</a><br>
+  <p>Maxence Vouaillat</p> <br>
+  <a href="maxence.vouaillat@cpe.fr">Adresse mail : maxence.vouaillat@cpe.fr </a><br>
+  <a href="tel:+33601020304">Tél : 06.01.02.03.04</a><br>
+  </p>
+</div>
+  <h2>
+    Informations sur l'entreprise
+  </h2>
+<p>
+  V&NTrip est une entreprise de voyage basée partout dans le monde. blablabla <br>
+  Le siège social est basé au 69, route de Magni METZ 57050
+</p>
+<p>
+  Une question sur nos services ? <br> Remplissez ce formulaire <br>
+</p>
+</div>
+
+<div>
+<form class="mail">
+    <label> Objet</label> <br>
+      <input type="text" name="objet" value="Demande de renseignements">
+  <br>
+
+  <label>Sujet</label><br>
+  <textarea id="subject" name="subject" placeholder="Bonjour, je souhaiterais obtenir des renseignements
+sur" ></textarea><br>
+  <input type="submit" value="Envoyer">
+</form>
+</div>
+
+<div class="navbar"><a href="principale.html" >Home</a>
+  <a href="contact.html" >Contactez-nous</a>
+  <a href="panier.html"> Panier</a>
+  <button class="open-button" id="id" onclick="openForm()">s'identifier</button>
+
+</div>
+<form action="" class="form-container" id="myForm" style="display : none">
+  <div id="login"><h1 id="log">login</h1>
+
+
+  <label for="email"><b>Email</b></label>
+  <input type="text" placeholder="Enter Email" id="email" name="email" required>
+
+  <label for="psw"><b>Password</b></label>
+  <input type="password" id="psw" placeholder="Enter Password" name="psw" required>
+
+  <button type="button" class="btn" onclick="login()">Login</button>
+  <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  <a href="inscription.html">s'inscrire</a></div>
+  <button type="button" id="loged" class="btn" onclick="disconect()">Se déconecter</button>
+
+</form>
+
+
+
+</body>
+<footer>
+  <p>
+    With V&NTrip The World Is Your's <br>
+    V&NTrip is a company with a capital of 8000E
+  </p>
+</footer>
+</html>
