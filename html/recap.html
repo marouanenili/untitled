@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="../css/recap.css">
+    <link rel="stylesheet" href="../css/principale.css">
     <meta charset="UTF-8">
     <title>recap</title>
     <script src='../js/reservation.js'></script>
 </head>
 <body onload="start()">
 
-<p> Bonjours <i><div id="Name">NAME</div></i> Voici le recapitulatif de votre voyage :</p>
+<div id='recap'>
+    <label id="bjr">Bonjour</label>
+    <i><div id="Name">NAME</div></i> Voici le récapitulatif de votre voyage :
+</div>
+
 <table>
     <tr>
         <td>
@@ -21,32 +25,32 @@
 <tr> <td>Ville:</td>
     <td  id="Town">NAME</td>
 </tr>
-<tr><td> Nombre de Jour:</td>
+<tr><td> Nombre de jours:</td>
     <td  id="NbrJour">NAME</td>
 </tr>
-<tr> <td> Date d'arrivee: </td>
+<tr> <td> Date d'arrivée: </td>
     <td id="Date arrivee">NAME</td>
 </tr>
-<tr> <td> Date de depart:</td>
+<tr> <td> Date de départ:</td>
     <td  id="Date depart">NAME</td>
 </tr>
 <tr> <td> Nombre d'adultes:</td>
     <td id="NbrAdu"> NAME</td>
 </tr>
-<tr> <td> Nombre d'enfant:</td>
+<tr> <td> Nombre d'enfants:</td>
     <td id="NbrEnf">NAME</td>
 </tr>
-<tr> <td> Petit dejeuner: </td>
+<tr> <td> Petit déjeuner: </td>
     <td id="petitdej">NAME</td>
 </tr>
-<tr> <td> Prix Total : </td>
+<tr> <td> Prix total : </td>
     <td id="PrixTOT">NAME</td>
 </tr>
 </table>
 <form id="reserv" action='principale.html'>
-    <input id="boutton3" type="button" value="supprimer" onclick="supprimer()">
+<input id="boutton3" type="button" value="Supprimer" onclick="supprimer()">
 <input id="boutton1"  type="submit" value="ajouter au panier" onclick="transfertverspanier()">
-<input id="boutton2" type="button" value="annuler" onclick="history.back()">
+<input id="boutton2" type="button" value="Annuler" onclick="history.back()">
 <input id="Country2" type="text" name="nbrJ" value="" >
 <input id="Name2" type="text" name="Nom" value=""  >
 <input id="Mail" type="text" name="mail" value="" >
@@ -61,6 +65,12 @@
 <input id="petitdej2" type="text"  value="" >
 </form>
 <span id="response"></span>
+
+<div class="navbar"><a href="principale.html" >Home</a>
+    <a href="contact.html" >Contactez-nous</a>
+    <a href="panier.html"> Panier</a>
+    <button class="open-button" id="id" onclick="openForm()">s'identifier</button>
+</div>
 
 </body>
 </html>

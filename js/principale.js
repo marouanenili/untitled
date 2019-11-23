@@ -172,3 +172,4 @@ function disconect(){
     localStorage.setItem('etatConexion',JSON.stringify({etat:false ,idconexion:null}));
     window.location.reload();
 }
+console.log('supprime ca');

@@ -1,6 +1,7 @@
 body{
     margin: 0px;
 }
+
 .Filtre {
     margin-top: 50px;
     float:left;
@@ -11,19 +12,23 @@ body{
 
     background-color:#333 ;
 }
+
 footer {
     color:wheat;
     height: 50px;
     background-color: #333333;
 }
+
 body {
     background-image: url("../img/Background.jpeg ");
     color: white;
 }
+
 #filtre {
     color:#b3d4fc;
     font-size:50px;
 }
+
 .navbar {
     overflow: hidden;
     background-color: #333;
@@ -69,8 +74,6 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
-
-
 }
 .intro {
     margin-top: 50px;
@@ -78,8 +81,6 @@ body {
     color: moccasin;
     font-size: 60px;
     text-align: center;
-
-
 }
 .image  {
     opacity: 1;
@@ -219,8 +220,60 @@ body {
 .test {
     width:20vw;
 }
+<<<<<<< HEAD
 #divprincipal {
 
  margin-top: 20%;
 
 }
+=======
+
+#Name {
+    font-size: 146%;
+    font-style: italic;
+}
+#PrixTOT {
+    font-size: 24px;
+    font-weight: 600;
+}
+#reserv {
+    visibility: hidden;
+}
+#boutton1 {
+    visibility: visible ;
+}
+#boutton2 {
+    visibility: visible;
+}
+
+input[type=submit], input[type=button] {
+    margin-top: 1%;;
+    margin-left: 0.5%;
+    border-radius: 5px;
+    color: white;
+    background-color: #333333;
+    border-color: white;
+    padding: 0.75%;
+}
+
+table {
+    position: center;
+    background-color: #333333;
+    border-radius: 15px;
+    padding: 1%;
+    font-size: 120%;
+}
+
+#recap{
+    margin-top: 110px;
+    font-size: 120%;
+    text-align: center;
+    position: auto;
+    top: 50px;
+}
+#bjr{
+    padding: 1%;
+    background-color: #333333;
+    border-radius: 15px;
+}
+>>>>>>> 9bbd82f719d28ef8a3f76c7bd5760f237751a136
