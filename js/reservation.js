@@ -141,7 +141,7 @@ function supprimer(){
             elementasupprimer=i}}
     obj.splice(elementasupprimer,1);
     localStorage.setItem('ReservInfo', JSON.stringify(obj));
-    history.back()
+    window.location.replace('panier.html');
 }
 
 
