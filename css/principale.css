@@ -64,9 +64,18 @@ body {
     height: 50%;
     margin-top: 1vw;
 }
+<<<<<<< HEAD
 
 #Ajaccio{
     margin-top:20vw;
+=======
+#myForm {
+    top: 0px;
+    margin-top: 49px;
+    right: 28px;
+    padding-right: 26px;
+    padding-left: 26px;
+>>>>>>> 43c34255f33472de5b10999f32f8ec774e82bd73
 }
 
 .titre {
@@ -95,11 +104,8 @@ body {
 .container:hover .titre {
     opacity: 0
 }
-.text {
-    background-color: #4CAF50;
-    color: white;
-    font-size: 16px;
-    padding: 16px 32px;}
+
+
 .middle {
     transition: .5s ease;
     opacity: 0;
@@ -108,6 +114,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+    color:white;
 }
 .bottom {
     transition: .5s ease;
@@ -116,6 +123,10 @@ body {
     bottom : 10%;
     left :10%;
     text-align: center;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
 
 }
 .form-popup {
@@ -132,6 +143,10 @@ body {
     position: absolute;
     bottom : 10%;
     right :10%;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
 
 }
 .container:hover .middle {
@@ -159,6 +174,9 @@ body {
 
 #loged {
     display: none;
+    padding-right: 48px;
+    padding-left: 48px;
+    margin-right: 48px;
 }
 
 .form-container {
@@ -208,6 +226,13 @@ body {
 .test {
     width:20vw;
 }
+<<<<<<< HEAD
+#divprincipal {
+
+ margin-top: 20%;
+
+}
+=======
 
 #Name {
     font-size: 146%;
@@ -266,6 +291,7 @@ table {
     background-color: #333333;
     border-radius: 15px;
 }
+<<<<<<< HEAD
 
 #message {
     margin-top: 50px;
@@ -298,3 +324,6 @@ td, th {
 a{
     color:white;
 }
+=======
+>>>>>>> 9bbd82f719d28ef8a3f76c7bd5760f237751a136
+>>>>>>> 43c34255f33472de5b10999f32f8ec774e82bd73
