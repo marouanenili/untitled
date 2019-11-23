@@ -64,18 +64,17 @@ body {
     height: 50%;
     margin-top: 1vw;
 }
-<<<<<<< HEAD
 
 #Ajaccio{
     margin-top:20vw;
-=======
+}
+
 #myForm {
     top: 0px;
     margin-top: 49px;
     right: 28px;
     padding-right: 26px;
     padding-left: 26px;
->>>>>>> 43c34255f33472de5b10999f32f8ec774e82bd73
 }
 
 .titre {
@@ -226,13 +225,10 @@ body {
 .test {
     width:20vw;
 }
-<<<<<<< HEAD
+
 #divprincipal {
-
  margin-top: 20%;
-
 }
-=======
 
 #Name {
     font-size: 146%;
@@ -291,7 +287,6 @@ table {
     background-color: #333333;
     border-radius: 15px;
 }
-<<<<<<< HEAD
 
 #message {
     margin-top: 50px;
